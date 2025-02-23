@@ -1,3 +1,4 @@
 1. https://www.figma.com/design/f8mOgXa1ic2JC5N4rZOILk/Hotel-booking-web-design-(Community)?node-id=1-2&p=f&t=UPFRhTOi0OmWp4oj-0
-
 2. https://www.figma.com/design/I1ow4xXk6Daxtc7bIJAh28/Tini---Hotel-Booking-Template-(Community)?node-id=660-1026936&m=dev&t=OUgGnEzxjnpY93Wt-1
+
+Low Fidelity Figma link: https://www.figma.com/design/j5uIwR7TpquuysAZrPGv67/Elnet-Hotel-Booking-Application?node-id=232-97&m=dev&t=DHSWoGY68jjDDXPQ-1
