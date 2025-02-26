@@ -2,3 +2,95 @@
 2. https://www.figma.com/design/I1ow4xXk6Daxtc7bIJAh28/Tini---Hotel-Booking-Template-(Community)?node-id=660-1026936&m=dev&t=OUgGnEzxjnpY93Wt-1
 
 Low Fidelity Figma link: https://www.figma.com/design/j5uIwR7TpquuysAZrPGv67/Elnet-Hotel-Booking-Application?node-id=232-97&m=dev&t=DHSWoGY68jjDDXPQ-1
+
+------------------------------------------------------------------------------
+
+Creating a hotel reservation and management system requires clear understanding of the roles and responsibilities of each user. Here's a breakdown of the four users, their purposes, and the relationships between them:
+
+### 1. **Administrators (Admins)**
+
+**Purpose:**  
+Admins are responsible for the overall management of the hotel reservation system. They have full access to the system and can oversee all operations, users, and processes. Their role is to ensure the smooth running of the hotel, from managing reservations to setting system parameters.
+
+**Key Functionalities:**
+- **User Management**: Create, update, and remove accounts for other users (front desk, housekeeping, etc.).
+- **System Settings**: Configure hotel-specific settings (room types, pricing, tax rates, etc.).
+- **Report Generation**: Generate detailed reports on bookings, revenue, occupancy rates, and customer demographics.
+- **Reservation Management**: Oversee all reservations, including cancellations and modifications.
+- **Assign Roles**: Set user roles and permissions, ensuring each user can only access the information relevant to their role.
+- **Hotel Policies**: Manage check-in/check-out times, cancellation policies, and other business rules.
+- **Monitoring**: Track and monitor the overall health of the system, including logs and notifications.
+
+**Relationship to Other Users:**
+- Admins control the system and have the highest level of access.
+- They interact with **Front Desk**, **Housekeeping**, and **Guests** indirectly, ensuring they have the necessary tools and data to perform their tasks.
+
+---
+
+### 2. **Front Desk**
+
+**Purpose:**  
+Front Desk staff are the primary point of contact for guests. They handle all reservations (both bookings and cancellations), check-ins, and check-outs. They ensure guests are settled into their rooms, collect payment, and provide assistance throughout their stay.
+
+**Key Functionalities:**
+- **Reservation Management**: Check availability, book rooms, modify or cancel bookings.
+- **Check-in/Check-out**: Facilitate guest check-ins, providing room keys and essential information about the hotel services. Handle guest check-outs, finalize payments, and provide receipts.
+- **Guest Interaction**: Answer guest queries, assist with special requests, and resolve any issues that arise during their stay.
+- **Room Assignment**: Assign rooms based on guest preferences and availability.
+- **Billing**: Generate invoices, collect payments, and issue receipts for services rendered.
+- **Special Requests**: Manage guest requests (e.g., extra beds, early check-in, late check-out).
+
+**Relationship to Other Users:**
+- Interacts directly with **Guests**, as they provide customer-facing services (reservations, check-ins, etc.).
+- Collaborates with **Housekeeping** to communicate guest requests, check room status, and ensure room readiness.
+- Reports and escalates issues to **Admins** if needed (e.g., technical issues or security problems).
+
+---
+
+### 3. **Housekeeping**
+
+**Purpose:**  
+Housekeeping staff are responsible for maintaining the cleanliness and readiness of guest rooms. Their role is critical in ensuring that rooms are cleaned and prepared for new arrivals, and they also manage the cleaning of public areas.
+
+**Key Functionalities:**
+- **Room Preparation**: Clean and prepare rooms for new guests, including changing linens, restocking supplies, and ensuring everything is in order.
+- **Room Maintenance**: Report any issues in guest rooms (e.g., broken items, plumbing issues) to maintenance teams or admins.
+- **Cleaning Schedules**: Follow a daily or weekly cleaning schedule for each room based on check-in/check-out schedules.
+- **Guest Requests**: Handle special cleaning requests, such as extra towels or pillows, from guests (communicated via Front Desk).
+- **Room Inspections**: Inspect rooms after cleaning to ensure they meet hotel standards and quality control.
+
+**Relationship to Other Users:**
+- Receives room assignments and cleaning schedules from **Front Desk**.
+- May interact with **Guests** if they have special requests for cleaning or additional amenities.
+- Housekeeping does not typically interact directly with **Admins**, but they may report issues to them through **Front Desk** or directly.
+
+---
+
+### 4. **Guests**
+
+**Purpose:**  
+Guests are the customers staying at the hotel. They interact with the system primarily to make reservations, check in and out, and use hotel services during their stay.
+
+**Key Functionalities:**
+- **Reservation Creation**: Book rooms through the system, either directly or online, specifying room type, duration, and preferences.
+- **Check-in/Check-out**: Check in and out, providing personal details, confirming bookings, and paying for their stay.
+- **View Booking Details**: View reservation history, current stay details, and upcoming reservations (if the system allows self-service options).
+- **Request Services**: Request additional services such as room cleaning, maintenance, extra amenities, etc. (communicated through Front Desk).
+- **Room Preferences**: Specify preferences during booking (e.g., room type, bed configuration, smoking or non-smoking room, etc.).
+- **Payment**: Pay for reservations and any additional services via the Front Desk.
+
+**Relationship to Other Users:**
+- Interacts directly with **Front Desk** for booking, check-in, check-out, and service requests.
+- Indirectly interacts with **Housekeeping** (through special requests for cleaning or amenities).
+- **Admins** are not typically involved in direct guest interaction but might oversee guest services and feedback from time to time.
+
+---
+
+### **Summary of Relationships:**
+
+- **Admins** have overall control and can manage all other users.
+- **Front Desk** is the central point of contact for **Guests** and works with **Housekeeping** for room readiness. They also report to **Admins**.
+- **Housekeeping** communicates with **Front Desk** for room assignments and cleaning requests but does not directly deal with **Guests** unless requested by **Front Desk**.
+- **Guests** directly interact with **Front Desk** for reservations, check-in, and check-out, and indirectly interact with **Housekeeping** for room services.
+
+This structure ensures clear accountability and efficient management of hotel operations, each user contributing to a seamless guest experience.
