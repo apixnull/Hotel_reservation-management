@@ -3,6 +3,8 @@
 
 Low Fidelity Figma link: https://www.figma.com/design/j5uIwR7TpquuysAZrPGv67/Elnet-Hotel-Booking-Application?node-id=232-97&m=dev&t=DHSWoGY68jjDDXPQ-1
 
+Oyao figma link: https://www.figma.com/proto/ArO2c9qivIBLN4Pd1sATaq/Latest-Hotel-Booking-Website-Prototype-(Community)?node-id=0-1&t=uvGUTbMzH9X3ZkEc-1
+
 ------------------------------------------------------------------------------
 
 Creating a hotel reservation and management system requires clear understanding of the roles and responsibilities of each user. Here's a breakdown of the four users, their purposes, and the relationships between them:
